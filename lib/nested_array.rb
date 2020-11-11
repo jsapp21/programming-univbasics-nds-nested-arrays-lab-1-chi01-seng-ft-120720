@@ -1,6 +1,15 @@
 # Examples inspired by U. S. National Organic Standards
 
-ORGANIC_PRODUCE = [
+
+
+def assembled_matrix
+  # Build an array that contains both of the above arrays
+  # This matrix will represent a produce storage room
+  # Organic standards require that organic products be stored ABOVE conventional, not the other way around
+  # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
+  
+  [
+  ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
   "Grapes",
@@ -15,12 +24,9 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
-
-def assembled_matrix
-  # Build an array that contains both of the above arrays
-  # This matrix will represent a produce storage room
-  # Organic standards require that organic products be stored ABOVE conventional, not the other way around
-  # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
+  ]
+  
+  
 end
 
 def sorted_matrix
