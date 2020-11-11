@@ -6,20 +6,20 @@
 
 
 def assembled_matrix
-  [
-  ORGANIC_PRODUCE = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-    ]
+my_araray  = [
 CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
   "Watermelon",
   "Eggplant"
+    ]
+ORGANIC_PRODUCE = [
+  "Strawberries",
+  "Potatoes",
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"
     ]
   ]
   
